@@ -1,11 +1,21 @@
 #include <QApplication>
 #include "mainwindow.h"
+#include <QSqlDatabase>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
-    
-    return a.exec();
+    QSqlDatabase maBase=QSqlDatabase::addDatabase("QMYSQL");
+    maBase.setDatabaseName("dbNewWorld");
+    maBase.setHostName("localhost");
+    maBase.setUserName("adminDBNewWorld");
+    maBase.setPassword("xuactf42");
+    if(maBase.open())
+    {
+        MainWindow w;
+        w.show();
+        return a.exec();
+    }
+    else
+        return -125;
 }
