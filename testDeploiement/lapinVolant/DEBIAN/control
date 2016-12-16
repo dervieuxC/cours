@@ -1,0 +1,8 @@
+Package:lapin
+Version:1.0
+Priority:optionel
+Description:attaque les carottes volantes
+Section:base
+Architecture:all
+Depends:bash
+Maintener:dervieux.c@gmail.com

@@ -1,0 +1,8 @@
+Package:gestcontact
+Version:1.0
+Architecture:all
+Section:base
+Description:Permet de gérer des contacts
+Maintainer:dervieux.c@gmail.com
+Depends:bash,libqtgui4,libqt4-sql-mysql,libqt4-sql,libqtcore4
+Priority:Optional

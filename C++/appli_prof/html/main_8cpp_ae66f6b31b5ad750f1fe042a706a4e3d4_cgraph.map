@@ -1,0 +1,30 @@
+<map id="main" name="main">
+<area shape="rect" id="node3" href="$main_8cpp.html#a060b1b9a54b301c0ef6718410c616044" title="creerSection" alt="" coords="113,7,207,36"/>
+<area shape="rect" id="node9" href="$main_8cpp.html#ab4da989a5a85c62e58b2aaaa560d541c" title="sectionSelector" alt="" coords="104,60,216,89"/>
+<area shape="rect" id="node11" href="$main_8cpp.html#a5074e8571076bbfa1bc2a053297520b7" title="affiSection" alt="" coords="315,59,397,88"/>
+<area shape="rect" id="node13" href="$class_section.html#a59158781444f53654b89fad68291791b" title="menu section *Permet d&#39;afficher le menu de la section et de gérer le choix de l&#39;utilisateur" alt="" coords="109,165,211,195"/>
+<area shape="rect" id="node51" href="$main_8cpp.html#a0e3712f2940cab09560fc250f16e63cc" title="creerMatiere" alt="" coords="113,219,207,248"/>
+<area shape="rect" id="node59" href="$main_8cpp.html#a55645d67bf6c29003ffa1ac4af8327e7" title="affiMatiere" alt="" coords="119,272,201,301"/>
+<area shape="rect" id="node5" href="$class_section.html#a7f3e53b28e0afcbba1c21168af9015bc" title="saisir une section *Permet à l&#39;utilisateur de saisir les valeurs d&#39;une section" alt="" coords="280,5,432,35"/>
+<area shape="rect" id="node7" href="$class_section.html#a6d7313c0c0d9a1857db45f0b7978ebcc" title="*Permet de donner un nom à la section" alt="" coords="521,5,641,35"/>
+<area shape="rect" id="node15" href="$class_section.html#a6279989607a517310651263aff2d42dd" title="afficher les détaille de la section *Permet d&#39;afficher le nom de la section, le nom de tout les élève..." alt="" coords="271,272,441,301"/>
+<area shape="rect" id="node19" href="$class_section.html#abf60dc588ce5704e8cd259453cbe9e91" title="ajouter élèves *Permet à l&#39;utilisateur d&#39;ajouter une élève dans la section" alt="" coords="289,325,423,355"/>
+<area shape="rect" id="node27" href="$class_section.html#a2009ece57cde4881da48efc6696ed691" title="ajouter évaluation *Permet à l&#39;utilisateur d&#39;ajouter une évaluation dans la section" alt="" coords="292,112,420,141"/>
+<area shape="rect" id="node43" href="$class_section.html#a481421eaade6bf5935654a2386860eea" title="ajouter une matière à la section *Affiche les matières qui ne sont pas encore présente dans la sectio..." alt="" coords="265,165,447,195"/>
+<area shape="rect" id="node48" href="$class_section.html#a1b8aa93fa07ecafd30547ca0285738ae" title="affiche évaluation *Permet d&#39;afficher les évaluations" alt="" coords="293,219,419,248"/>
+<area shape="rect" id="node17" href="$class_section.html#a2f9835f8c6bfd5d3ae0eb53738fb51a7" title="*Permet de retourner le nom de la section" alt="" coords="521,245,641,275"/>
+<area shape="rect" id="node21" href="$class_eleve.html#a58dfffa4ec2e1098cca621aca1bc8b01" title="saisie d&#39;un élève *Permet à l&#39;utilisateur de saisir les informations d&#39;un élève" alt="" coords="516,325,647,355"/>
+<area shape="rect" id="node23" href="$class_eleve.html#a9ae9b9ab1bdad31358aaabfe782ee917" title="*Permet de donner un nom à un élève" alt="" coords="736,299,845,328"/>
+<area shape="rect" id="node25" href="$class_eleve.html#a204474920420c637c2db34676fa5b6f1" title="*Permet de donner un prénom à un élève" alt="" coords="728,352,853,381"/>
+<area shape="rect" id="node29" href="$class_section.html#a92511a0a21b91748cc244a2d220f76a5" title="selection matière *Permet de d&#39;afficher les matière et l&#39;utilisateur peut sélectionner la matière qu&#39;..." alt="" coords="499,59,664,88"/>
+<area shape="rect" id="node33" href="$class_evaluation.html#a7bca2f24b3cd48bc41220c4ad127a10f" title="saisie évaluation *Permet à l&#39;utilisateur de saisir une évaluation" alt="" coords="507,112,656,141"/>
+<area shape="rect" id="node31" href="$class_matiere.html#a103abd445b1bc378e0e3687875f4fcff" title="*Permet de retourner le nom d&#39;une matière" alt="" coords="732,5,849,35"/>
+<area shape="rect" id="node35" href="$class_evaluation.html#a71abf2df2a50639d207b94d8cacd7206" title="*Permet de donenr un coeff à l&#39;évaluation" alt="" coords="720,219,861,248"/>
+<area shape="rect" id="node37" href="$class_evaluation.html#a9da8c5e1c7c580dda5d2e5509771dd5a" title="*Permet de donner un id à l&#39;évaluation" alt="" coords="731,59,851,88"/>
+<area shape="rect" id="node39" href="$class_evaluation.html#a6a84b62167fab19b8d74e8f225c3a622" title="*Permet de donner une date à l&#39;évaluation" alt="" coords="723,112,859,141"/>
+<area shape="rect" id="node41" href="$class_evaluation.html#a5093357701d653d150471933d86c905c" title="*Permet de donner une matiere à l&#39;évaluation" alt="" coords="715,165,867,195"/>
+<area shape="rect" id="node45" href="$class_section.html#a6ab96944b37bfc813c3bac3c734951e9" title="comparer une matière *permet de comparer une matière du vecteur avec toute celle du vecteur qui conti..." alt="" coords="496,165,667,195"/>
+<area shape="rect" id="node53" href="$class_matiere.html#ac84968e1561a24e5118468edc2750f4f" title="saisir une Matière *Permet à l&#39;utilisateur de saisir toutes les informations de la matière..." alt="" coords="281,379,431,408"/>
+<area shape="rect" id="node55" href="$class_matiere.html#ae0d9312f6cbddf446614ffa00d1750ae" title="*permet de donner un nom à une matière" alt="" coords="523,379,640,408"/>
+<area shape="rect" id="node57" href="$class_matiere.html#aabf35dcc826eedca91490b8985d67da7" title="*Permet de donner un coeff à une matière" alt="" coords="520,432,643,461"/>
+</map>

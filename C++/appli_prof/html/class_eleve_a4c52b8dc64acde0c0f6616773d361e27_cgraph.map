@@ -1,0 +1,4 @@
+<map id="Eleve::affiEleve" name="Eleve::affiEleve">
+<area shape="rect" id="node3" href="$class_eleve.html#abf63239397983c10c4dfea36839aa522" title="*Permet de retourner le nom de l&#39;élève" alt="" coords="177,5,287,35"/>
+<area shape="rect" id="node5" href="$class_eleve.html#a306ededf39fac45344ceb81f4591d96f" title="Eleve::getPrenom" alt="" coords="169,59,295,88"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Matiere::affiMatiere" name="Matiere::affiMatiere">
+<area shape="rect" id="node3" href="$class_matiere.html#a103abd445b1bc378e0e3687875f4fcff" title="*Permet de retourner le nom d&#39;une matière" alt="" coords="192,5,309,35"/>
+<area shape="rect" id="node5" href="$class_matiere.html#a3e50f81ac7893dbd989c9d06ff9af763" title="*Permet de retourner le coeff de la matière" alt="" coords="189,59,312,88"/>
+</map>

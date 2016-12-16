@@ -1,0 +1,41 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="./style.css">
+<?php
+include 'tradFr.php';
+//include 'haut.php';
+?>
+<title>New World</title>
+</head>
+<body>
+<ul id="menu-bar">
+<li class="active"><a href="#">NW</a></li>
+<li><a href="#">Acheter</a>
+</li>
+<li><a href="#">Produire</a>
+</li>
+<li><a href="#">Distribuer</a></li>
+</ul>
+</br>
+<p><?php
+echo $messageAccueil1;
+?></p>
+<p><?php
+echo $messageAccueil2;
+?><p>
+<p><?php
+echo $messageAccueil3;
+?></p>
+<p><?php
+echo $messageAccueil4;
+?></p>
+<p><?php
+echo $messageAccueil5;
+?></p>
+<img src="boucher.jpg" alt="boucher">
+<img src="jardinier.jpg" alt="jardinier">
+<?php
+include 'bas.php'
+?>
+</body>
+</html>

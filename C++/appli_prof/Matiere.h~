@@ -1,0 +1,35 @@
+
+#ifndef MATIERE_H
+#define MATIERE_H
+
+#include <string>
+
+using namespace std;
+
+/**
+  * class Matiere
+  * 
+  */
+
+class Matiere
+{
+public:
+
+  /**
+   * Empty Constructor
+   */
+  Matiere ( );
+
+void setNom(string new_var);
+string getnom();
+void setcoeff(int new_var);
+int getcoeff();
+
+  
+private:
+
+  string nom;
+  int coeff;
+};//fin de la classe Matiere
+
+#endif // MATIERE_H

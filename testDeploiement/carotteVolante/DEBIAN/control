@@ -1,0 +1,8 @@
+Package:carotte
+Version:1.0
+Section:base
+Priority:optionel
+Architecture:all
+Depends:bash
+Maintainer:dervieux.c@gmail.com
+Description:affiche un peut de texte

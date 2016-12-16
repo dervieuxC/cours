@@ -1,0 +1,5 @@
+<map id="Eleve::saisieEleve" name="Eleve::saisieEleve">
+<area shape="rect" id="node3" href="$class_section.html#abf60dc588ce5704e8cd259453cbe9e91" title="ajouter élèves *Permet à l&#39;utilisateur d&#39;ajouter une élève dans la section" alt="" coords="185,5,319,35"/>
+<area shape="rect" id="node5" href="$class_section.html#a59158781444f53654b89fad68291791b" title="menu section *Permet d&#39;afficher le menu de la section et de gérer le choix de l&#39;utilisateur" alt="" coords="369,5,471,35"/>
+<area shape="rect" id="node7" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="520,5,571,35"/>
+</map>

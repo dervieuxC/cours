@@ -1,0 +1,13 @@
+Source: db-common-example
+Section: misc
+Priority: optional
+Maintainer: dervieux.c@gmail.com
+Build-Depends-Indep: debhelper (>> 3.0.0)
+Standards-Version:1.0
+
+Package: dbGestionContacts
+Architecture: all
+Depends: dbconfig-common,libqtgui4,libqt4-sql-mysql,libqt4-sql,libqtcore4
+Recommends: mysql-client
+Suggests: mysql-server
+Description:Permet de gérer des contacts  

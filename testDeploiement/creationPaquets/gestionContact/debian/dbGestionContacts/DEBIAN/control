@@ -1,0 +1,12 @@
+Package: dbGestionContacts
+Source: db-common-example
+Version: 2.0
+Architecture: all
+Maintainer: dervieux.c@gmail.com
+Installed-Size: 64
+Depends: dbconfig-common, libqtgui4, libqt4-sql-mysql, libqt4-sql, libqtcore4
+Recommends: mysql-client
+Suggests: mysql-server
+Section: misc
+Priority: optional
+Description: Permet de gérer des contacts

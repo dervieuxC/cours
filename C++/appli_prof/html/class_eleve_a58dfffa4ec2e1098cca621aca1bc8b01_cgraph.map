@@ -1,0 +1,4 @@
+<map id="Eleve::saisieEleve" name="Eleve::saisieEleve">
+<area shape="rect" id="node3" href="$class_eleve.html#a9ae9b9ab1bdad31358aaabfe782ee917" title="*Permet de donner un nom à un élève" alt="" coords="193,5,303,35"/>
+<area shape="rect" id="node5" href="$class_eleve.html#a204474920420c637c2db34676fa5b6f1" title="*Permet de donner un prénom à un élève" alt="" coords="185,59,311,88"/>
+</map>

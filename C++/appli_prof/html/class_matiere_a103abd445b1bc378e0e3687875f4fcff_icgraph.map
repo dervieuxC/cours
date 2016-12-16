@@ -1,0 +1,7 @@
+<map id="Matiere::getNom" name="Matiere::getNom">
+<area shape="rect" id="node3" href="$class_matiere.html#a40ce0a7003b3d771bbcb2c745a20ad1a" title="afficher une matière *Permet d&#39;afficher les informations d&#39;une matière" alt="" coords="189,5,323,35"/>
+<area shape="rect" id="node5" href="$class_section.html#a92511a0a21b91748cc244a2d220f76a5" title="selection matière *Permet de d&#39;afficher les matière et l&#39;utilisateur peut sélectionner la matière qu&#39;..." alt="" coords="173,59,339,88"/>
+<area shape="rect" id="node7" href="$class_section.html#a2009ece57cde4881da48efc6696ed691" title="ajouter évaluation *Permet à l&#39;utilisateur d&#39;ajouter une évaluation dans la section" alt="" coords="387,59,515,88"/>
+<area shape="rect" id="node9" href="$class_section.html#a59158781444f53654b89fad68291791b" title="menu section *Permet d&#39;afficher le menu de la section et de gérer le choix de l&#39;utilisateur" alt="" coords="564,59,665,88"/>
+<area shape="rect" id="node11" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="715,59,765,88"/>
+</map>

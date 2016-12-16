@@ -1,0 +1,1 @@
+create table Contact( id int primary key,prenom char

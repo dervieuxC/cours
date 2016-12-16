@@ -1,0 +1,4 @@
+<map id="Matiere::saisieMatiere" name="Matiere::saisieMatiere">
+<area shape="rect" id="node3" href="$class_matiere.html#ae0d9312f6cbddf446614ffa00d1750ae" title="*permet de donner un nom à une matière" alt="" coords="208,5,325,35"/>
+<area shape="rect" id="node5" href="$class_matiere.html#aabf35dcc826eedca91490b8985d67da7" title="*Permet de donner un coeff à une matière" alt="" coords="205,59,328,88"/>
+</map>

@@ -1,0 +1,419 @@
+\hypertarget{class_evaluation}{\section{Référence de la classe Evaluation}
+\label{class_evaluation}\index{Evaluation@{Evaluation}}
+}
+
+
+{\ttfamily \#include $<$Evaluation.\-h$>$}
+
+
+
+Graphe de collaboration de Evaluation\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=176pt]{class_evaluation__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_evaluation_af7b959b9a214ba6bd0ecc65324d9fe12}{Evaluation} ()
+\begin{DoxyCompactList}\small\item\em constructeur vide $\ast$\-Permet de créer une évaluation \end{DoxyCompactList}\item 
+\hyperlink{class_evaluation_ac314d2138cbce24223f66ce52d3fab51}{Evaluation} (int l\-Id, int le\-Coeff, string la\-Date)
+\begin{DoxyCompactList}\small\item\em constructeur id+coeff+date $\ast$\-Permet d'instancier une évaluation en lui donnant un id, un coeff et une date \end{DoxyCompactList}\item 
+\hyperlink{class_evaluation_a9d8bd540b9c6bf9f0f29b66c33384785}{Evaluation} (int l\-Id, int le\-Coeff, string la\-Date, \hyperlink{class_matiere}{Matiere} $\ast$la\-Matiere)
+\begin{DoxyCompactList}\small\item\em constructeur id+coeff+date+matiere $\ast$\-Permet d'instancier une évaluation en lui donnant un id, un coeff, une date et une matière \end{DoxyCompactList}\item 
+double \hyperlink{class_evaluation_ab51c8ccf98e731b48c7d12586b0cdfab}{moyenne\-Eval} ()
+\begin{DoxyCompactList}\small\item\em moyenne évaluation $\ast$\-Permet de calculer la moyenne d'une évaluation \end{DoxyCompactList}\item 
+void \hyperlink{class_evaluation_ac1b064b52d0a8527d046130a0c352743}{add\-Notes} ()
+\begin{DoxyCompactList}\small\item\em ajouter notes $\ast$\-Permet d'ajouter des notes dans le vecteur notes d'une évaluation \end{DoxyCompactList}\item 
+void \hyperlink{class_evaluation_aa9a018cc4136e5aba6a73dcfaaf88d8a}{print\-Notes\-Eval} ()
+\begin{DoxyCompactList}\small\item\em afficher notes de l'évaluation $\ast$\-Permet d'affiche toutes les notes d'une évaluation précise \end{DoxyCompactList}\item 
+void \hyperlink{class_evaluation_a7bca2f24b3cd48bc41220c4ad127a10f}{saisie\-Eval} (\hyperlink{class_matiere}{Matiere} $\ast$new\-Mat)
+\begin{DoxyCompactList}\small\item\em saisie évaluation $\ast$\-Permet à l'utilisateur de saisir une évaluation \end{DoxyCompactList}\item 
+void \hyperlink{class_evaluation_a3cb34d3397cceeff0e3ce51badc7cf83}{affi\-Eval} ()
+\begin{DoxyCompactList}\small\item\em afficher évaluation $\ast$\-Permet d'afficher le descriptif d'une évaluation \end{DoxyCompactList}\item 
+void \hyperlink{class_evaluation_a5093357701d653d150471933d86c905c}{set\-Matiere} (\hyperlink{class_matiere}{Matiere} $\ast$new\-\_\-var)
+\begin{DoxyCompactList}\small\item\em $\ast$\-Permet de donner une matiere à l'évaluation \end{DoxyCompactList}\item 
+\hyperlink{class_matiere}{Matiere} $\ast$ \hyperlink{class_evaluation_ab74c781aaf29c0c43ac5c04d9ff74065}{get\-Matiere} ()
+\begin{DoxyCompactList}\small\item\em $\ast$permet de retourner la matière d'une évaluation \end{DoxyCompactList}\item 
+void \hyperlink{class_evaluation_a9da8c5e1c7c580dda5d2e5509771dd5a}{set\-Id} (int new\-\_\-var)
+\begin{DoxyCompactList}\small\item\em $\ast$\-Permet de donner un id à l'évaluation \end{DoxyCompactList}\item 
+int \hyperlink{class_evaluation_a7321d761cd51da691fb1712e878852f6}{get\-Id} ()
+\begin{DoxyCompactList}\small\item\em $\ast$\-Permet de retourner l'id de l'évaluation \end{DoxyCompactList}\item 
+void \hyperlink{class_evaluation_a71abf2df2a50639d207b94d8cacd7206}{set\-Coeff} (int new\-\_\-var)
+\begin{DoxyCompactList}\small\item\em $\ast$\-Permet de donenr un coeff à l'évaluation \end{DoxyCompactList}\item 
+int \hyperlink{class_evaluation_af4c2323e59d3344226d1e760f74f00c2}{get\-Coeff} ()
+\begin{DoxyCompactList}\small\item\em $\ast$\-Permet de retourner un coeff de l'évaluation \end{DoxyCompactList}\item 
+void \hyperlink{class_evaluation_a6a84b62167fab19b8d74e8f225c3a622}{set\-Date} (string la\-Date)
+\begin{DoxyCompactList}\small\item\em $\ast$\-Permet de donner une date à l'évaluation \end{DoxyCompactList}\item 
+string \hyperlink{class_evaluation_a737df75c5f979ec212554209f9224a6e}{get\-Date} ()
+\begin{DoxyCompactList}\small\item\em $\ast$\-Permet de retourner la date de l'évaluation \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+class \hyperlink{class_evaluation}{Evaluation} 
+
+\subsection{Documentation des constructeurs et destructeur}
+\hypertarget{class_evaluation_af7b959b9a214ba6bd0ecc65324d9fe12}{\index{Evaluation@{Evaluation}!Evaluation@{Evaluation}}
+\index{Evaluation@{Evaluation}!Evaluation@{Evaluation}}
+\subsubsection[{Evaluation}]{\setlength{\rightskip}{0pt plus 5cm}Evaluation\-::\-Evaluation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_evaluation_af7b959b9a214ba6bd0ecc65324d9fe12}
+
+
+constructeur vide $\ast$\-Permet de créer une évaluation 
+
+\hypertarget{class_evaluation_ac314d2138cbce24223f66ce52d3fab51}{\index{Evaluation@{Evaluation}!Evaluation@{Evaluation}}
+\index{Evaluation@{Evaluation}!Evaluation@{Evaluation}}
+\subsubsection[{Evaluation}]{\setlength{\rightskip}{0pt plus 5cm}Evaluation\-::\-Evaluation (
+\begin{DoxyParamCaption}
+\item[{int}]{l\-Id, }
+\item[{int}]{le\-Coeff, }
+\item[{string}]{la\-Date}
+\end{DoxyParamCaption}
+)}}\label{class_evaluation_ac314d2138cbce24223f66ce52d3fab51}
+
+
+constructeur id+coeff+date $\ast$\-Permet d'instancier une évaluation en lui donnant un id, un coeff et une date 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em l'id} & puis le coeff et enfin la date de l'évaluation que l'on veut créer \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_evaluation_a9d8bd540b9c6bf9f0f29b66c33384785}{\index{Evaluation@{Evaluation}!Evaluation@{Evaluation}}
+\index{Evaluation@{Evaluation}!Evaluation@{Evaluation}}
+\subsubsection[{Evaluation}]{\setlength{\rightskip}{0pt plus 5cm}Evaluation\-::\-Evaluation (
+\begin{DoxyParamCaption}
+\item[{int}]{l\-Id, }
+\item[{int}]{le\-Coeff, }
+\item[{string}]{la\-Date, }
+\item[{{\bf Matiere} $\ast$}]{la\-Matiere}
+\end{DoxyParamCaption}
+)}}\label{class_evaluation_a9d8bd540b9c6bf9f0f29b66c33384785}
+
+
+constructeur id+coeff+date+matiere $\ast$\-Permet d'instancier une évaluation en lui donnant un id, un coeff, une date et une matière 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em l'id} & puis le coeff puis la date et enfin une matière de l'évaluation que l'on veut créer \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\hypertarget{class_evaluation_ac1b064b52d0a8527d046130a0c352743}{\index{Evaluation@{Evaluation}!add\-Notes@{add\-Notes}}
+\index{add\-Notes@{add\-Notes}!Evaluation@{Evaluation}}
+\subsubsection[{add\-Notes}]{\setlength{\rightskip}{0pt plus 5cm}void Evaluation\-::add\-Notes (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_evaluation_ac1b064b52d0a8527d046130a0c352743}
+
+
+ajouter notes $\ast$\-Permet d'ajouter des notes dans le vecteur notes d'une évaluation 
+
+
+
+Voici le graphe d'appel pour cette fonction \-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_evaluation_ac1b064b52d0a8527d046130a0c352743_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_evaluation_a3cb34d3397cceeff0e3ce51badc7cf83}{\index{Evaluation@{Evaluation}!affi\-Eval@{affi\-Eval}}
+\index{affi\-Eval@{affi\-Eval}!Evaluation@{Evaluation}}
+\subsubsection[{affi\-Eval}]{\setlength{\rightskip}{0pt plus 5cm}void Evaluation\-::affi\-Eval (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_evaluation_a3cb34d3397cceeff0e3ce51badc7cf83}
+
+
+afficher évaluation $\ast$\-Permet d'afficher le descriptif d'une évaluation 
+
+
+
+Voici le graphe d'appel pour cette fonction \-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{class_evaluation_a3cb34d3397cceeff0e3ce51badc7cf83_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_evaluation_af4c2323e59d3344226d1e760f74f00c2}{\index{Evaluation@{Evaluation}!get\-Coeff@{get\-Coeff}}
+\index{get\-Coeff@{get\-Coeff}!Evaluation@{Evaluation}}
+\subsubsection[{get\-Coeff}]{\setlength{\rightskip}{0pt plus 5cm}int Evaluation\-::get\-Coeff (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_evaluation_af4c2323e59d3344226d1e760f74f00c2}
+
+
+$\ast$\-Permet de retourner un coeff de l'évaluation 
+
+Get the value of coeff \begin{DoxyReturn}{Renvoie}
+the value of coeff 
+\end{DoxyReturn}
+
+
+Voici le graphe des appelants de cette fonction \-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{class_evaluation_af4c2323e59d3344226d1e760f74f00c2_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_evaluation_a737df75c5f979ec212554209f9224a6e}{\index{Evaluation@{Evaluation}!get\-Date@{get\-Date}}
+\index{get\-Date@{get\-Date}!Evaluation@{Evaluation}}
+\subsubsection[{get\-Date}]{\setlength{\rightskip}{0pt plus 5cm}string Evaluation\-::get\-Date (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_evaluation_a737df75c5f979ec212554209f9224a6e}
+
+
+$\ast$\-Permet de retourner la date de l'évaluation 
+
+
+
+Voici le graphe des appelants de cette fonction \-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{class_evaluation_a737df75c5f979ec212554209f9224a6e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_evaluation_a7321d761cd51da691fb1712e878852f6}{\index{Evaluation@{Evaluation}!get\-Id@{get\-Id}}
+\index{get\-Id@{get\-Id}!Evaluation@{Evaluation}}
+\subsubsection[{get\-Id}]{\setlength{\rightskip}{0pt plus 5cm}int Evaluation\-::get\-Id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_evaluation_a7321d761cd51da691fb1712e878852f6}
+
+
+$\ast$\-Permet de retourner l'id de l'évaluation 
+
+Get the value of id \begin{DoxyReturn}{Renvoie}
+the value of id 
+\end{DoxyReturn}
+
+
+Voici le graphe des appelants de cette fonction \-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{class_evaluation_a7321d761cd51da691fb1712e878852f6_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_evaluation_ab74c781aaf29c0c43ac5c04d9ff74065}{\index{Evaluation@{Evaluation}!get\-Matiere@{get\-Matiere}}
+\index{get\-Matiere@{get\-Matiere}!Evaluation@{Evaluation}}
+\subsubsection[{get\-Matiere}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matiere} $\ast$ Evaluation\-::get\-Matiere (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_evaluation_ab74c781aaf29c0c43ac5c04d9ff74065}
+
+
+$\ast$permet de retourner la matière d'une évaluation 
+
+Get the value of matiere \begin{DoxyReturn}{Renvoie}
+the value of matiere 
+\end{DoxyReturn}
+\hypertarget{class_evaluation_ab51c8ccf98e731b48c7d12586b0cdfab}{\index{Evaluation@{Evaluation}!moyenne\-Eval@{moyenne\-Eval}}
+\index{moyenne\-Eval@{moyenne\-Eval}!Evaluation@{Evaluation}}
+\subsubsection[{moyenne\-Eval}]{\setlength{\rightskip}{0pt plus 5cm}double Evaluation\-::moyenne\-Eval (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_evaluation_ab51c8ccf98e731b48c7d12586b0cdfab}
+
+
+moyenne évaluation $\ast$\-Permet de calculer la moyenne d'une évaluation 
+
+\hypertarget{class_evaluation_aa9a018cc4136e5aba6a73dcfaaf88d8a}{\index{Evaluation@{Evaluation}!print\-Notes\-Eval@{print\-Notes\-Eval}}
+\index{print\-Notes\-Eval@{print\-Notes\-Eval}!Evaluation@{Evaluation}}
+\subsubsection[{print\-Notes\-Eval}]{\setlength{\rightskip}{0pt plus 5cm}void Evaluation\-::print\-Notes\-Eval (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_evaluation_aa9a018cc4136e5aba6a73dcfaaf88d8a}
+
+
+afficher notes de l'évaluation $\ast$\-Permet d'affiche toutes les notes d'une évaluation précise 
+
+\hypertarget{class_evaluation_a7bca2f24b3cd48bc41220c4ad127a10f}{\index{Evaluation@{Evaluation}!saisie\-Eval@{saisie\-Eval}}
+\index{saisie\-Eval@{saisie\-Eval}!Evaluation@{Evaluation}}
+\subsubsection[{saisie\-Eval}]{\setlength{\rightskip}{0pt plus 5cm}void Evaluation\-::saisie\-Eval (
+\begin{DoxyParamCaption}
+\item[{{\bf Matiere} $\ast$}]{new\-Mat}
+\end{DoxyParamCaption}
+)}}\label{class_evaluation_a7bca2f24b3cd48bc41220c4ad127a10f}
+
+
+saisie évaluation $\ast$\-Permet à l'utilisateur de saisir une évaluation 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em une} & matière \\
+\hline
+\end{DoxyParams}
+
+
+Voici le graphe d'appel pour cette fonction \-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{class_evaluation_a7bca2f24b3cd48bc41220c4ad127a10f_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Voici le graphe des appelants de cette fonction \-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_evaluation_a7bca2f24b3cd48bc41220c4ad127a10f_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_evaluation_a71abf2df2a50639d207b94d8cacd7206}{\index{Evaluation@{Evaluation}!set\-Coeff@{set\-Coeff}}
+\index{set\-Coeff@{set\-Coeff}!Evaluation@{Evaluation}}
+\subsubsection[{set\-Coeff}]{\setlength{\rightskip}{0pt plus 5cm}void Evaluation\-::set\-Coeff (
+\begin{DoxyParamCaption}
+\item[{int}]{new\-\_\-var}
+\end{DoxyParamCaption}
+)}}\label{class_evaluation_a71abf2df2a50639d207b94d8cacd7206}
+
+
+$\ast$\-Permet de donenr un coeff à l'évaluation 
+
+Set the value of coeff 
+\begin{DoxyParams}{Paramètres}
+{\em new\-\_\-var} & the new value of coeff \\
+\hline
+\end{DoxyParams}
+
+
+Voici le graphe des appelants de cette fonction \-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_evaluation_a71abf2df2a50639d207b94d8cacd7206_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_evaluation_a6a84b62167fab19b8d74e8f225c3a622}{\index{Evaluation@{Evaluation}!set\-Date@{set\-Date}}
+\index{set\-Date@{set\-Date}!Evaluation@{Evaluation}}
+\subsubsection[{set\-Date}]{\setlength{\rightskip}{0pt plus 5cm}void Evaluation\-::set\-Date (
+\begin{DoxyParamCaption}
+\item[{string}]{la\-Date}
+\end{DoxyParamCaption}
+)}}\label{class_evaluation_a6a84b62167fab19b8d74e8f225c3a622}
+
+
+$\ast$\-Permet de donner une date à l'évaluation 
+
+
+
+Voici le graphe des appelants de cette fonction \-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_evaluation_a6a84b62167fab19b8d74e8f225c3a622_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_evaluation_a9da8c5e1c7c580dda5d2e5509771dd5a}{\index{Evaluation@{Evaluation}!set\-Id@{set\-Id}}
+\index{set\-Id@{set\-Id}!Evaluation@{Evaluation}}
+\subsubsection[{set\-Id}]{\setlength{\rightskip}{0pt plus 5cm}void Evaluation\-::set\-Id (
+\begin{DoxyParamCaption}
+\item[{int}]{new\-\_\-var}
+\end{DoxyParamCaption}
+)}}\label{class_evaluation_a9da8c5e1c7c580dda5d2e5509771dd5a}
+
+
+$\ast$\-Permet de donner un id à l'évaluation 
+
+Set the value of id 
+\begin{DoxyParams}{Paramètres}
+{\em new\-\_\-var} & the new value of id \\
+\hline
+\end{DoxyParams}
+
+
+Voici le graphe des appelants de cette fonction \-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_evaluation_a9da8c5e1c7c580dda5d2e5509771dd5a_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_evaluation_a5093357701d653d150471933d86c905c}{\index{Evaluation@{Evaluation}!set\-Matiere@{set\-Matiere}}
+\index{set\-Matiere@{set\-Matiere}!Evaluation@{Evaluation}}
+\subsubsection[{set\-Matiere}]{\setlength{\rightskip}{0pt plus 5cm}void Evaluation\-::set\-Matiere (
+\begin{DoxyParamCaption}
+\item[{{\bf Matiere} $\ast$}]{new\-\_\-var}
+\end{DoxyParamCaption}
+)}}\label{class_evaluation_a5093357701d653d150471933d86c905c}
+
+
+$\ast$\-Permet de donner une matiere à l'évaluation 
+
+Set the value of matiere 
+\begin{DoxyParams}{Paramètres}
+{\em new\-\_\-var} & the new value of matiere \\
+\hline
+\end{DoxyParams}
+
+
+Voici le graphe des appelants de cette fonction \-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_evaluation_a5093357701d653d150471933d86c905c_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_evaluation_8h}{Evaluation.\-h}\item 
+\hyperlink{_evaluation_8cpp}{Evaluation.\-cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+<map id="creerMatiere" name="creerMatiere">
+<area shape="rect" id="node3" href="$class_matiere.html#ac84968e1561a24e5118468edc2750f4f" title="saisir une Matière *Permet à l&#39;utilisateur de saisir toutes les informations de la matière..." alt="" coords="151,32,300,61"/>
+<area shape="rect" id="node5" href="$class_matiere.html#ae0d9312f6cbddf446614ffa00d1750ae" title="*permet de donner un nom à une matière" alt="" coords="352,5,469,35"/>
+<area shape="rect" id="node7" href="$class_matiere.html#aabf35dcc826eedca91490b8985d67da7" title="*Permet de donner un coeff à une matière" alt="" coords="349,59,472,88"/>
+</map>

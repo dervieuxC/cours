@@ -1,0 +1,6 @@
+<map id="Evaluation::setCoeff" name="Evaluation::setCoeff">
+<area shape="rect" id="node3" href="$class_evaluation.html#a7bca2f24b3cd48bc41220c4ad127a10f" title="saisie évaluation *Permet à l&#39;utilisateur de saisir une évaluation" alt="" coords="196,5,345,35"/>
+<area shape="rect" id="node5" href="$class_section.html#a2009ece57cde4881da48efc6696ed691" title="ajouter évaluation *Permet à l&#39;utilisateur d&#39;ajouter une évaluation dans la section" alt="" coords="395,5,523,35"/>
+<area shape="rect" id="node7" href="$class_section.html#a59158781444f53654b89fad68291791b" title="menu section *Permet d&#39;afficher le menu de la section et de gérer le choix de l&#39;utilisateur" alt="" coords="572,5,673,35"/>
+<area shape="rect" id="node9" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="723,5,773,35"/>
+</map>

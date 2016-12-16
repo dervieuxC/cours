@@ -1,0 +1,6 @@
+<map id="Evaluation::saisieEval" name="Evaluation::saisieEval">
+<area shape="rect" id="node3" href="$class_evaluation.html#a71abf2df2a50639d207b94d8cacd7206" title="*Permet de donenr un coeff à l&#39;évaluation" alt="" coords="211,5,352,35"/>
+<area shape="rect" id="node5" href="$class_evaluation.html#a9da8c5e1c7c580dda5d2e5509771dd5a" title="*Permet de donner un id à l&#39;évaluation" alt="" coords="221,59,341,88"/>
+<area shape="rect" id="node7" href="$class_evaluation.html#a6a84b62167fab19b8d74e8f225c3a622" title="*Permet de donner une date à l&#39;évaluation" alt="" coords="213,112,349,141"/>
+<area shape="rect" id="node9" href="$class_evaluation.html#a5093357701d653d150471933d86c905c" title="*Permet de donner une matiere à l&#39;évaluation" alt="" coords="205,165,357,195"/>
+</map>

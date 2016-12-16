@@ -1,0 +1,5 @@
+<map id="Section::addEleves" name="Section::addEleves">
+<area shape="rect" id="node3" href="$class_eleve.html#a58dfffa4ec2e1098cca621aca1bc8b01" title="saisie d&#39;un élève *Permet à l&#39;utilisateur de saisir les informations d&#39;un élève" alt="" coords="189,32,320,61"/>
+<area shape="rect" id="node5" href="$class_eleve.html#a9ae9b9ab1bdad31358aaabfe782ee917" title="*Permet de donner un nom à un élève" alt="" coords="377,5,487,35"/>
+<area shape="rect" id="node7" href="$class_eleve.html#a204474920420c637c2db34676fa5b6f1" title="*Permet de donner un prénom à un élève" alt="" coords="369,59,495,88"/>
+</map>
